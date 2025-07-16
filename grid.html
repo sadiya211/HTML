@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            background-color: white;
+            padding:10px;
+        }
+        .container>div{
+            background-color: #f1f1f1;
+            border:1px solid black;
+            padding:20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        div.static{
+            position: static;
+            border: 3px solid black;
+        }
+        .fixed{
+            position:fixed;
+            bottom:0;
+            right:0;
+            width:300px;
+            border:3px solid black;
+        }
+        .relative{
+            position: relative;
+            width:400px;
+            height:200px;
+            border:3px solid black;
+        }
+        .absolute{
+            position:absolute;
+            top:80px;
+            right:0;
+            width:200px;
+            height:100px;
+            border:3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>display:grid</h1>
+    <p>use display:grid</p>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+    <div class="static">
+        this div element has position static
+    </div>
+    <div class="fixed">this is div element position is fixed</div>
+    <div class="relative">hi</div>
+    <div class="absolute">hi</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Flaot Example</title>
+    <style>
+        .left-float{
+            float:left;
+            width:200px;
+            height:150px;
+            background-color: lightblue;
+            margin-right: 10px;
+        }
+        .right-float{
+            float:right;
+            width:200px;
+            height:150px;
+            background-color: lightcoral;
+            margin-right: 10px;
+
+        }
+        .content{
+            background-color: grey;
+            padding:10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between ;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left-float"> LeftFlaot</div>
+    <div clas="right-float">RightFloat</div>
+    </div>
+    
+    <div class="content">
+        <p>this is the content that will wrap around the floated elements...</p>
+    </div>
+</body>
+</html>
