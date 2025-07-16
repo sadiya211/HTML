@@ -1,10 +1,7 @@
 # 🎫 Event Portal Project
-This folder contains all files related to the event registration project.
-Created folder for event portal project
-# 🎫 Event Portal Project
 
 This is a group project built using HTML, CSS, and JavaScript to simulate an event registration system.
-
+Created folder for event portal project
 ---
 
 ## 📁 Project Overview
